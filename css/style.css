@@ -16,8 +16,6 @@ h1{
     font-size: 44px;
     line-height: 44px;
     text-align: center;
-    /* anadir dependiendo del tamano del nav */
-    padding-top: 100px;
 }
 h2{
     font-size: 36px;
@@ -33,6 +31,9 @@ h4{
 }
 p{
     text-align: justify;
+}
+span{
+    text-decoration: underline;
 }
 a{
     font-style: italic;
@@ -50,6 +51,18 @@ a:-moz-any-link{
 a:hover{
     color: #10B981
 }
+/* id */
+#logo-principal{
+    text-align: left;
+    padding-left: 10px;
+}
+#inicio{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 110px;
+}
+
 /* navbar */
 nav{
     position: fixed;
@@ -60,6 +73,7 @@ nav{
     padding: 10px 0px;
     text-align: center;
 }
+
 /* footer */
 footer{
     background-color: #333333;
@@ -68,15 +82,8 @@ footer{
 }
 .grid-footer{
     display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-gap: 0px;
+    grid-template-columns: 50px 70px 200px;
+    text-align: center;
+    grid-gap: 40px;
     justify-content: right;
-}
-#info-cole{
-
-}
-/* id */
-#logo-principal{
-    text-align: left;
-    padding-left: 10px;
 }
