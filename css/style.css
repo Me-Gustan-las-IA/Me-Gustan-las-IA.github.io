@@ -61,8 +61,16 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 110px;
-}
+        text-align: center;
 
+}
+#hacker{
+    font-family: 'Space Mono', monospace;
+    font-size: 44px;
+    line-height: 44px;
+    padding: 0%;
+    display: inline-block;
+}
 /* navbar */
 nav{
     position: fixed;
@@ -73,7 +81,6 @@ nav{
     padding: 10px 0px;
     text-align: center;
 }
-
 /* footer */
 footer{
     background-color: #333333;

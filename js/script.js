@@ -1,14 +1,18 @@
 const hackerElement = document.getElementById('hacker');
 
 let isOriginal = true;
+let scrambleInterval = null; // Track current interval
 
 function hackerEffect(element, newText) {
-  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()";
+  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
   const originalText = element.textContent;
   let iteration = 0;
-  const interval = 50;
+  const interval = 40;
 
-  const scramble = setInterval(() => {
+  // Cancel any existing interval
+  if (scrambleInterval) clearInterval(scrambleInterval);
+
+  scrambleInterval = setInterval(() => {
     let display = originalText.split("")
       .map((char, i) => {
         if (i < iteration) {
@@ -20,18 +24,19 @@ function hackerEffect(element, newText) {
 
     element.textContent = display;
 
-    iteration += 1 / 3;
+    iteration += 1 / 2;
 
     if (iteration >= newText.length) {
-      clearInterval(scramble);
+      clearInterval(scrambleInterval);
+      scrambleInterval = null;
       element.textContent = newText;
     }
   }, interval);
 }
 
 hackerElement.addEventListener("mouseenter", () => {
-  const targetText = isOriginal 
-    ? hackerElement.getAttribute("data-alt") 
+  const targetText = isOriginal
+    ? hackerElement.getAttribute("data-alt")
     : hackerElement.getAttribute("data-original");
 
   hackerEffect(hackerElement, targetText);
