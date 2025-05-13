@@ -120,6 +120,29 @@ nav {
     background-color: #555;
     border-radius: 4px;
 }
+
+/* section contenido */
+.fila-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.card-content{
+    width: 350px;
+    padding: 10px 20px;
+    background-color: #333333;
+    border-radius: 15px;
+}
+.card-content ul li{
+    display: inline-block
+}
+.card-content li{
+    list-style: none;
+}
 /* footer */
 footer{
     background-color: #333333;
