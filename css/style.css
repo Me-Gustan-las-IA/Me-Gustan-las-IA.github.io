@@ -70,6 +70,7 @@ a:hover{
     padding: 0%;
     display: inline-block;
 }
+
 /* navbar */
 nav {
     position: fixed;
@@ -137,12 +138,16 @@ nav {
     background-color: #333333;
     border-radius: 15px;
 }
-.card-content ul li{
-    display: inline-block
+.card-content ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
 }
 .card-content li{
     list-style: none;
 }
+
 /* footer */
 footer{
     background-color: #333333;
