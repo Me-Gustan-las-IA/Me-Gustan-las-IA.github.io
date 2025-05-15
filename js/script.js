@@ -1,3 +1,4 @@
+// HACKER TEXT
 const hackerElement = document.getElementById('hacker');
 
 let isOriginal = true;
@@ -41,4 +42,25 @@ hackerElement.addEventListener("mouseenter", () => {
 
   hackerEffect(hackerElement, targetText);
   isOriginal = !isOriginal;
+});
+
+// RANDOM AI PAGE
+document.addEventListener("DOMContentLoaded", () => {
+  const randomLinks = document.querySelectorAll(".random-ai");
+
+  const aiPages = [
+    "index.html",
+    "plantilla-resto-ia.html"
+  ];
+
+  randomLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault(); // Prevent default <a> behavior
+
+      const randomIndex = Math.floor(Math.random() * aiPages.length);
+      const selectedPage = aiPages[randomIndex];
+
+      window.location.href = selectedPage;
+    });
+  });
 });
