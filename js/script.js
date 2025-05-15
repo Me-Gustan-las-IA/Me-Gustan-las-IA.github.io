@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const aiPages = [
     "index.html",
-    "plantilla-resto-ia.html"
+    "html/plantilla-resto-ia.html"
   ];
 
   randomLinks.forEach(link => {
