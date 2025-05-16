@@ -187,3 +187,83 @@ footer{
     grid-gap: 40px;
     justify-content: right;
 }
+
+/* resto paginas ias */
+.ai-container{
+    padding: 30px 100px 30px 100px;
+    box-sizing: border-box;
+}
+.ai-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    padding-top: 90px;
+}
+/*
+.ai-header img{
+    width: 60px;
+    height: 60px;
+}
+*/
+.columns{
+    display: flex;
+    gap: 20px;
+}
+.left-column, .right-column{
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+}
+#features-ai{
+    padding-top: 30px;
+}
+.list-ai li{
+    margin-left: 20px;
+}
+#uses-ai{
+    padding-top: 20px;
+}
+#information-ai{
+    padding-top: 20px;
+}
+.info-table td{
+    padding-right: 20px;
+}
+#link-ai{
+    display: inline-block;
+    padding-top: 40px;
+}
+.video-placeholder{
+    padding: 20px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 15px;
+}
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+.credit{
+    margin-top: 30px;
+    text-align: right;
+}
