@@ -187,3 +187,65 @@ footer{
     grid-gap: 40px;
     justify-content: right;
 }
+
+/* resto paginas ias */
+.ai-container{
+    padding: 30px 100px 30px 100px;
+    box-sizing: border-box;
+}
+.ai-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    padding-top: 90px;
+}
+/*
+.ai-header img{
+    width: 60px;
+    height: 60px;
+}
+*/
+.columns{
+    display: flex;
+    gap: 20px;
+}
+.left-column, .right-column{
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+}
+#features-ai{
+    padding-top: 20px;
+}
+.features li{
+    margin-left: 20px;
+}
+#information-ai{
+    padding-top: 20px;
+}
+.info-table td{
+    padding-right: 20px;
+}
+#link-ai{
+    padding-top: 100px;
+}
+.video-placeholder{
+    padding: 20px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 15px;
+}
+iframe{
+    border-radius: 20px;
+}
+.credit{
+    margin-top: 30px;
+    text-align: right;
+}
