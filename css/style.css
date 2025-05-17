@@ -161,6 +161,9 @@ nav{
 }
 
 /* section contenido */
+[id]{
+    scroll-margin-top: 80px;
+}
 .fila-content{
     display: flex;
     flex-direction: row;
@@ -185,6 +188,7 @@ nav{
 .card-content li{
     list-style: none;
 }
+
 
 /* footer */
 footer{
