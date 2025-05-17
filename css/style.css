@@ -179,7 +179,7 @@ nav{
 .card-content ul{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
     margin: 10px 0;
 }
 .card-content li{
