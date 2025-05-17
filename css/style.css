@@ -51,6 +51,9 @@ a:-moz-any-link{
 a:hover{
     color: #10B981
 }
+.logo-ai{
+    height: 80px;
+}
 /* id */
 #logo-principal{
     text-align: left;
