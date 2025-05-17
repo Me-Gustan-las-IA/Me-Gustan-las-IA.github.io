@@ -281,6 +281,8 @@ footer{
 /* legal */
 #legal-header{
     padding-top: 100px;
+    font-size: 20px;
+    line-height: 20px;
 }
 #legal-content ul{
     list-style: none;
@@ -296,4 +298,17 @@ footer{
 }
 #legal-fuente{
     list-style: none;
+}
+
+/* creditos */
+#creditos-header{
+    padding-top: 100px;
+    font-size: 20px;
+    line-height: 20px;
+}
+#creditos-content ul{
+    list-style: none;
+}
+#creditos-content ul li{
+    padding-top: 3px;
 }
