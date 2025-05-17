@@ -277,3 +277,23 @@ footer{
     margin-top: 30px;
     text-align: right;
 }
+
+/* legal */
+#legal-header{
+    padding-top: 100px;
+}
+#legal-content ul{
+    list-style: none;
+}
+#legal-logos ul li{
+    padding-top: 3px;
+}
+#legal-me-gustan{
+    padding-top: 10px;
+}
+#legal-fuente{
+    padding-top: 25px;
+}
+#legal-fuente{
+    list-style: none;
+}
