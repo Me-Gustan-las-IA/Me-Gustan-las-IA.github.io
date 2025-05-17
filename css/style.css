@@ -7,7 +7,13 @@ body{
     background-color: #222222;
     color: white;
     font: 200 18px 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     list-style: none;
+}
+.page-wrapper {
+  flex: 1;
 }
 section{
     padding: 30px 100px 30px 100px;
@@ -188,7 +194,7 @@ footer{
 }
 .grid-footer{
     display: grid;
-    grid-template-columns: 50px 70px 200px;
+    grid-template-columns: 50px 70px 220px;
     text-align: center;
     grid-gap: 40px;
     justify-content: right;
