@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     list-style: none;
 }
-.page-wrapper {
+.page-wrapper{
   flex: 1;
 }
 section{
@@ -84,7 +84,7 @@ a:hover{
 }
 
 /* navbar */
-nav {
+nav{
     position: fixed;
     top: 0;
     width: 100%;
@@ -95,21 +95,21 @@ nav {
     align-items: center;
     z-index: 1000;
 }
-.nav-container {
+.nav-container{
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-left {
+.nav-left{
     flex: 0 0 auto;
     padding-left: 5px;
 }
-#logo-principal {
+#logo-principal{
     height: 60px;
 }
-.nav-center {
+.nav-center{
     flex: 1;
     display: flex;
     justify-content: center;
@@ -119,22 +119,22 @@ nav {
     margin: 0;
     gap: 20px;
 }
-.nav-center li {
+.nav-center li{
     position: relative;
 }
-.nav-center a {
+.nav-center a{
     text-decoration: none;
     color: white;
     font-weight: bold;
     padding: 8px 12px;
     transition: background 0.2s;
 }
-.nav-center a:hover {
+.nav-center a:hover{
     background-color: #555;
     border-radius: 4px;
 }
 /* dropdown functionality */
-.dropdown-menu {
+.dropdown-menu{
     display: none;
     position: absolute;
     top: 100%;
@@ -148,15 +148,15 @@ nav {
     min-width: 150px;
     z-index: 1001;
 }
-.dropdown-menu li a {
+.dropdown-menu li a{
     display: block;
     padding: 10px;
     color: white;
 }
-.dropdown-menu li a:hover {
+.dropdown-menu li a:hover{
     background-color: #666;
 }
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu{
     display: block;
 }
 
@@ -213,12 +213,6 @@ footer{
     padding: 15px 20px;
     padding-top: 90px;
 }
-/*
-.ai-header img{
-    width: 60px;
-    height: 60px;
-}
-*/
 .columns{
     display: flex;
     gap: 20px;
@@ -258,7 +252,7 @@ footer{
     color: white;
     border-radius: 15px;
 }
-.video-wrapper {
+.video-wrapper{
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -266,7 +260,7 @@ footer{
   overflow: hidden;
   border-radius: 20px;
 }
-.video-wrapper iframe {
+.video-wrapper iframe{
   position: absolute;
   top: 0;
   left: 0;
