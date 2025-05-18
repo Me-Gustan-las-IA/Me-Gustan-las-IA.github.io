@@ -49,8 +49,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const randomLinks = document.querySelectorAll(".random-ai");
 
   const aiPages = [
-    "index.html",
-    "html/plantilla-resto-ia.html"
+    "html/paginas-ias/deep-dream-generator.html",
+    "html/paginas-ias/deepL-Write.html",
+    "html/paginas-ias/docsBot.html",
+    "html/paginas-ias/elevenLabs.html",
+    "html/paginas-ias/gemini.html",
+    "html/paginas-ias/leonardo-AI.html",
+    "html/paginas-ias/napkin-AI.html",
+    "html/paginas-ias/nvidia-ACE.html",
+    "html/paginas-ias/pixVerse.html",
+    "html/paginas-ias/quillbot.html",
+    "html/paginas-ias/sora.html",
+    "html/paginas-ias/suno-AI.html",
+    "html/paginas-ias/whimsical.html",
+    "html/paginas-ias/zzz-code-AI.html"
   ];
 
   randomLinks.forEach(link => {
