@@ -41,6 +41,10 @@ p{
 span{
     text-decoration: underline;
 }
+small{
+    font-size: 12px;
+    line-height: 12px;
+}
 a{
     font-style: italic;
     text-decoration: none;
